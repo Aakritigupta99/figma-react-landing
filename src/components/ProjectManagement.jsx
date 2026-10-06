@@ -21,10 +21,13 @@ export default function ProjectManagement() {
           </Button>
         </div>
         <img
-          src={teamImg}
-          alt="Team collaborating around a table with a project board"
-          className="w-full"
-        />
+  loading="lazy"
+  width="600"
+  height="450"
+  src={teamImg}
+  alt="Team collaborating around a table with a project board"
+  className="w-full"
+/>
       </div>
     </section>
   )

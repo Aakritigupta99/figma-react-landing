@@ -7,10 +7,13 @@ export default function WorkTogether() {
     <section className="bg-white">
       <div className="mx-auto grid max-w-7xl items-center gap-10 px-6 py-16 md:grid-cols-2 md:py-24">
         <img
-          src={circleImg}
-          alt="Team members connected around the whitepace logo"
-          className="order-2 w-full md:order-1"
-        />
+  loading="lazy"
+  width="600"
+  height="450"
+  src={circleImg}
+  alt="Team members connected around the whitepace logo"
+  className="order-2 w-full md:order-1"
+/>
         <div className="order-1 md:order-2">
           <h2 className="text-4xl font-bold leading-tight text-ink md:text-6xl">
             Work <Highlight>together</Highlight>
